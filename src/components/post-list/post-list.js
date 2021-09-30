@@ -8,7 +8,7 @@ const PostList = ({posts, onDelete, onToggleImportant, onToggleLiked}) => {
     const elements = posts.map((item) => {
         const {id, ...itemProps} = item;
         return (
-            <li key={id} className="list=group-item">
+            <li key={id} className="list-group-item">
                 <PostListItem 
                 {...itemProps}
                 onDelete={() => onDelete(id)}

@@ -106,7 +106,7 @@ export default class App extends Component {
     }
 
     onFilterSelect(filter) {
-        this.state({filter})
+        this.setState({filter})
     }
 
     render() {
